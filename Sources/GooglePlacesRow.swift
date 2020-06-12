@@ -36,10 +36,7 @@ public func == (lhs: GooglePlace, rhs: GooglePlace) -> Bool {
     case (let .userInput( val), let .userInput( val2)):
         return val == val2
     case (let .prediction( pred), let .prediction( pred2)):
-        if pred.placeID != nil {
-            return pred.placeID == pred2.placeID
-        }
-        return pred2.placeID == nil && pred.attributedFullText == pred2.attributedFullText
+        return pred.placeID == pred2.placeID
     default:
         return false
     }
@@ -77,14 +74,14 @@ open class _GooglePlacesRow<Cell: GooglePlacesCell>: FieldRow<Cell>, GooglePlace
     }
 
     func autoComplete(_ text: String) {
-        placesClient.autocompleteQuery(text, bounds: placeBounds, filter: placeFilter, callback: { [weak self] (results, error: Error?) -> Void in
+        placesClient.findAutocompletePredictions(fromQuery: text, filter: placeFilter, sessionToken: nil) { [weak self] (results, error: Error?) -> Void in
             guard let results = results else {
                 self?.onNetworkingError?(error)
                 return
             }
             self?.cell.predictions = results
             self?.cell.reload()
-        })
+        }
     }
 }
 

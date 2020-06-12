@@ -11,6 +11,10 @@
 		28F828811C494B2C00330CF4 /* GooglePlacesRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F828801C494B2C00330CF4 /* GooglePlacesRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28F828881C494B2C00330CF4 /* GooglePlacesRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* GooglePlacesRow.framework */; };
 		28F8289A1C494B4200330CF4 /* GooglePlacesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F828991C494B4200330CF4 /* GooglePlacesRow.swift */; };
+		69D6C6EE24939B3700E1CA2B /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F79C2401D9C018300EE6D27 /* Eureka.framework */; };
+		69D6C6EF24939B3700E1CA2B /* Eureka.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F79C2401D9C018300EE6D27 /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		69D6C6F224939C4400E1CA2B /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D6C6F124939C4400E1CA2B /* GooglePlaces.framework */; };
+		69D6C6F424939C5500E1CA2B /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D6C6F324939C5500E1CA2B /* GoogleMapsBase.framework */; };
 		8F4BF7211CBEB61600EFE79A /* GooglePlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4BF7201CBEB61600EFE79A /* GooglePlacesCell.swift */; };
 		8F5A4F721CBFEF6500F47E76 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF801CBFCD1A000754B7 /* Accelerate.framework */; };
 		8F5A4F731CBFEF6500F47E76 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF811CBFCD1A000754B7 /* CoreBluetooth.framework */; };
@@ -19,22 +23,16 @@
 		8F5A4F771CBFEF6500F47E76 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF851CBFCD1A000754B7 /* libc++.tbd */; };
 		8F5A4F781CBFEF6500F47E76 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF861CBFCD1A000754B7 /* QuartzCore.framework */; };
 		8F5A4F791CBFEF6500F47E76 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF871CBFCD1A000754B7 /* SystemConfiguration.framework */; };
-		8F5A4F7A1CBFEF6500F47E76 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF881CBFCD1A000754B7 /* OpenGLES.framework */; };
 		8F5A4F7B1CBFEF6500F47E76 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF891CBFCD1A000754B7 /* AVFoundation.framework */; };
 		8F5A4F7C1CBFEF6500F47E76 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF8A1CBFCD1A000754B7 /* CoreData.framework */; };
 		8F5A4F7D1CBFEF6500F47E76 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF8B1CBFCD1A000754B7 /* CoreLocation.framework */; };
 		8F5A4F7E1CBFEF6500F47E76 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF8C1CBFCD1A000754B7 /* CoreText.framework */; };
-		8F5A4F7F1CBFEF6500F47E76 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF8D1CBFCD1A000754B7 /* GLKit.framework */; };
 		8F5A4F801CBFEF6500F47E76 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF8E1CBFCD1A000754B7 /* ImageIO.framework */; };
 		8F5A4F861CC0071C00F47E76 /* GPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A4F851CC0071C00F47E76 /* GPCollectionViewCell.swift */; };
 		8F5A4F881CC0074400F47E76 /* GPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A4F871CC0074400F47E76 /* GPTableViewCell.swift */; };
 		8F5A4F8A1CC00AF500F47E76 /* GooglePlacesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A4F891CC00AF500F47E76 /* GooglePlacesCollectionCell.swift */; };
 		8F5A4F8C1CC00B0300F47E76 /* GooglePlacesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A4F8B1CC00B0300F47E76 /* GooglePlacesTableCell.swift */; };
 		8F6FCE231CC1355F00EF0FD2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3EDF831CBFCD1A000754B7 /* libz.tbd */; };
-		8F79C2431D9C01AD00EE6D27 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F79C2401D9C018300EE6D27 /* Eureka.framework */; };
-		8F965AA11D4BDDBD00F2CB0B /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F965AA01D4BDDBD00F2CB0B /* GoogleMapsBase.framework */; };
-		8F965AA31D4BDDBF00F2CB0B /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F965AA21D4BDDBF00F2CB0B /* GooglePlaces.framework */; };
-		8F965AA51D4BDDDB00F2CB0B /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F965AA41D4BDDDB00F2CB0B /* GooglePlaces.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +59,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		69D6C6F024939B3700E1CA2B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				69D6C6EF24939B3700E1CA2B /* Eureka.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		287D0A6D1C4B73BD004566D6 /* GooglePlacesRowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GooglePlacesRowTests.swift; path = Tests/GooglePlacesRowTests.swift; sourceTree = SOURCE_ROOT; };
 		28F8287D1C494B2C00330CF4 /* GooglePlacesRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GooglePlacesRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +81,8 @@
 		28F828871C494B2C00330CF4 /* GooglePlacesRowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglePlacesRowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8288E1C494B2C00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F828991C494B4200330CF4 /* GooglePlacesRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacesRow.swift; sourceTree = "<group>"; };
+		69D6C6F124939C4400E1CA2B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlaces.framework; sourceTree = "<group>"; };
+		69D6C6F324939C5500E1CA2B /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
 		8F3A831B1CBEC6E300F4A73F /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
 		8F3EDF801CBFCD1A000754B7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
 		8F3EDF811CBFCD1A000754B7 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = "<absolute>"; };
@@ -78,12 +92,10 @@
 		8F3EDF851CBFCD1A000754B7 /* libc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/lib/libc++.tbd"; sourceTree = "<absolute>"; };
 		8F3EDF861CBFCD1A000754B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		8F3EDF871CBFCD1A000754B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
-		8F3EDF881CBFCD1A000754B7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = "<absolute>"; };
 		8F3EDF891CBFCD1A000754B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = "<absolute>"; };
 		8F3EDF8A1CBFCD1A000754B7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8F3EDF8B1CBFCD1A000754B7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = "<absolute>"; };
 		8F3EDF8C1CBFCD1A000754B7 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = "<absolute>"; };
-		8F3EDF8D1CBFCD1A000754B7 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = "<absolute>"; };
 		8F3EDF8E1CBFCD1A000754B7 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = "<absolute>"; };
 		8F4BF7201CBEB61600EFE79A /* GooglePlacesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacesCell.swift; sourceTree = "<group>"; };
 		8F5A4F851CC0071C00F47E76 /* GPCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -91,9 +103,6 @@
 		8F5A4F891CC00AF500F47E76 /* GooglePlacesCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacesCollectionCell.swift; sourceTree = "<group>"; };
 		8F5A4F8B1CC00B0300F47E76 /* GooglePlacesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacesTableCell.swift; sourceTree = "<group>"; };
 		8F79C23A1D9C018300EE6D27 /* Eureka.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Eureka.xcodeproj; path = Eureka/Eureka.xcodeproj; sourceTree = "<group>"; };
-		8F965AA01D4BDDBD00F2CB0B /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		8F965AA21D4BDDBF00F2CB0B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
-		8F965AA41D4BDDDB00F2CB0B /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,24 +110,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F79C2431D9C01AD00EE6D27 /* Eureka.framework in Frameworks */,
 				8F5A4F721CBFEF6500F47E76 /* Accelerate.framework in Frameworks */,
 				8F5A4F731CBFEF6500F47E76 /* CoreBluetooth.framework in Frameworks */,
 				8F5A4F741CBFEF6500F47E76 /* CoreGraphics.framework in Frameworks */,
+				69D6C6F424939C5500E1CA2B /* GoogleMapsBase.framework in Frameworks */,
 				8F6FCE231CC1355F00EF0FD2 /* libz.tbd in Frameworks */,
+				69D6C6F224939C4400E1CA2B /* GooglePlaces.framework in Frameworks */,
 				8F5A4F761CBFEF6500F47E76 /* libicucore.tbd in Frameworks */,
 				8F5A4F771CBFEF6500F47E76 /* libc++.tbd in Frameworks */,
 				8F5A4F781CBFEF6500F47E76 /* QuartzCore.framework in Frameworks */,
 				8F5A4F791CBFEF6500F47E76 /* SystemConfiguration.framework in Frameworks */,
-				8F5A4F7A1CBFEF6500F47E76 /* OpenGLES.framework in Frameworks */,
+				69D6C6EE24939B3700E1CA2B /* Eureka.framework in Frameworks */,
 				8F5A4F7B1CBFEF6500F47E76 /* AVFoundation.framework in Frameworks */,
 				8F5A4F7C1CBFEF6500F47E76 /* CoreData.framework in Frameworks */,
 				8F5A4F7D1CBFEF6500F47E76 /* CoreLocation.framework in Frameworks */,
 				8F5A4F7E1CBFEF6500F47E76 /* CoreText.framework in Frameworks */,
-				8F5A4F7F1CBFEF6500F47E76 /* GLKit.framework in Frameworks */,
 				8F5A4F801CBFEF6500F47E76 /* ImageIO.framework in Frameworks */,
-				8F965AA11D4BDDBD00F2CB0B /* GoogleMapsBase.framework in Frameworks */,
-				8F965AA31D4BDDBF00F2CB0B /* GooglePlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +143,6 @@
 		28F828731C494B2C00330CF4 = {
 			isa = PBXGroup;
 			children = (
-				8F965AA41D4BDDDB00F2CB0B /* GooglePlaces.bundle */,
 				28F828971C494B4200330CF4 /* Sources */,
 				28F8287F1C494B2C00330CF4 /* GooglePlacesRow */,
 				28F8288B1C494B2C00330CF4 /* Tests */,
@@ -197,9 +203,9 @@
 		CAEDE44796BC640758663FDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69D6C6F324939C5500E1CA2B /* GoogleMapsBase.framework */,
+				69D6C6F124939C4400E1CA2B /* GooglePlaces.framework */,
 				8F79C23A1D9C018300EE6D27 /* Eureka.xcodeproj */,
-				8F965AA21D4BDDBF00F2CB0B /* GooglePlaces.framework */,
-				8F965AA01D4BDDBD00F2CB0B /* GoogleMapsBase.framework */,
 				8F3EDF801CBFCD1A000754B7 /* Accelerate.framework */,
 				8F3EDF811CBFCD1A000754B7 /* CoreBluetooth.framework */,
 				8F3EDF821CBFCD1A000754B7 /* CoreGraphics.framework */,
@@ -208,12 +214,10 @@
 				8F3EDF851CBFCD1A000754B7 /* libc++.tbd */,
 				8F3EDF861CBFCD1A000754B7 /* QuartzCore.framework */,
 				8F3EDF871CBFCD1A000754B7 /* SystemConfiguration.framework */,
-				8F3EDF881CBFCD1A000754B7 /* OpenGLES.framework */,
 				8F3EDF891CBFCD1A000754B7 /* AVFoundation.framework */,
 				8F3EDF8A1CBFCD1A000754B7 /* CoreData.framework */,
 				8F3EDF8B1CBFCD1A000754B7 /* CoreLocation.framework */,
 				8F3EDF8C1CBFCD1A000754B7 /* CoreText.framework */,
-				8F3EDF8D1CBFCD1A000754B7 /* GLKit.framework */,
 				8F3EDF8E1CBFCD1A000754B7 /* ImageIO.framework */,
 				8F3A831B1CBEC6E300F4A73F /* Eureka.framework */,
 			);
@@ -242,6 +246,7 @@
 				28F828791C494B2C00330CF4 /* Frameworks */,
 				28F8287A1C494B2C00330CF4 /* Headers */,
 				28F8287B1C494B2C00330CF4 /* Resources */,
+				69D6C6F024939B3700E1CA2B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -336,7 +341,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F965AA51D4BDDDB00F2CB0B /* GooglePlaces.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +515,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GooglePlacesRow/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -535,6 +540,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GooglePlacesRow/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
